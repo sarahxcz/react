@@ -1,5 +1,7 @@
 
 import React from "react";
+import Steps from "./Steps";
+import "./styles/global.css";
 //import './styles/global.css'
 //import Box from "./components/Box.jsx"
 
@@ -19,6 +21,7 @@ class App extends React.Component {
           <p>Heart: {heartMin}</p>
           <p>Temperature: {tempMin}</p>
           <p>Steps: {stepsMin}</p>
+          <Steps></Steps>
 
           
           
